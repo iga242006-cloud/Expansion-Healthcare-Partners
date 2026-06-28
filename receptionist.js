@@ -8,17 +8,12 @@
     {
       keys: ['hello','hi','hey','good morning','good afternoon','howdy','greetings','sup','start'],
       reply: "Hi there! I'm Aria, the virtual receptionist for Expansion Healthcare Partners. I can answer questions about our services, tell you about our team, or help you get in touch. What can I help you with today?",
-      qr: ['What services do you offer?', 'Run ads for my practice', 'Who is Mark Rowlands?', 'How do I contact you?']
+      qr: ['What services do you offer?', 'Tell me about referral growth', 'Who is Mark Rowlands?', 'How do I contact you?']
     },
     {
       keys: ['service','offer','help','do','specialize','provide','work'],
-      reply: "Expansion Healthcare Partners offers:\n\n• Physician Referral Growth\n• Healthcare Marketing Strategy\n• Business Development\n• Practice Development\n• Meta/Digital Advertising Management\n• Reputation & Relationship Management\n\nWe serve independent medical practices and hospital systems across Indiana, Illinois, Ohio, Kentucky, and Michigan.",
-      qr: ['Tell me about Meta ads', 'How do referrals work?', 'Contact Mark']
-    },
-    {
-      keys: ['meta','facebook','instagram','ad','ads','advertising','digital','social media','campaign','run ad','paid'],
-      reply: "Yes! We manage Meta (Facebook & Instagram) advertising campaigns for independent medical practices. We handle everything — targeting, creative, budget, and reporting — so you can focus on patients.\n\nReady to grow your practice online? Reach out to Mark directly.",
-      qr: ['Contact Mark', 'What does it cost?', 'What other services do you offer?']
+      reply: "Expansion Healthcare Partners offers three core services:\n\n1. Medical Practice Business Development — building referral networks and growing practice revenue\n\n2. Physician Onboarding & Marketing — helping new physicians establish their presence and referral volume quickly\n\n3. Physician Placement & Employment Contract Consulting — job search, placement, and contract negotiation support\n\nWe serve specialists, groups, and hospital systems across Indiana, Illinois, Ohio, Kentucky, and Michigan.",
+      qr: ['Tell me about referral growth', 'Physician placement help', 'Contact Mark']
     },
     {
       keys: ['cost','price','pricing','fee','charge','rate','how much','affordable','budget'],
@@ -26,9 +21,19 @@
       qr: ['Yes, contact Mark', 'Tell me more about services']
     },
     {
-      keys: ['referral','physician referral','specialist','primary care','network','refer'],
-      reply: "Our physician referral growth program builds and strengthens relationships between specialists and primary care providers — increasing your inbound referrals and growing practice revenue.\n\nThis is one of our core specialties and has driven meaningful results for practices across the Midwest.",
-      qr: ['Tell me about Meta ads', 'Contact Mark', 'Other services']
+      keys: ['referral','physician referral','specialist','primary care','network','refer','growth','business development','barrier'],
+      reply: "Medical Practice Business Development is EHP's core specialty. We uncover barriers to referral, connect you with the right providers, and track referral data to ensure measurable growth.\n\nWe embed ourselves in your community and act as an ongoing liaison — so the relationships stay on track long after the introduction is made.",
+      qr: ['Physician onboarding', 'Physician placement', 'Contact Mark']
+    },
+    {
+      keys: ['onboard','new physician','new doctor','establish','new provider','joining','new to','marketing'],
+      reply: "Our Physician Onboarding & Marketing service helps new physicians hit the ground running. We leverage our existing relationships and introduction strategy so new providers aren't starting from zero.\n\nA new physician has a narrow window to build referral volume — we accelerate that process.",
+      qr: ['Tell me about referral growth', 'Physician placement', 'Contact Mark']
+    },
+    {
+      keys: ['placement','contract','employment','job','search','negotiate','negotiation','hire','hiring','site visit','housing','legal'],
+      reply: "EHP assists physicians with job search, placement, and contract negotiation — including site visits, community evaluation, financial terms consultation, and legal referrals for contract assistance.\n\nFinding the right position is only part of the challenge. We provide the objectivity and experience most physicians don't have access to.",
+      qr: ['Tell me about referral growth', 'Physician onboarding', 'Contact Mark']
     },
     {
       keys: ['mark','rowlands','principal','ache','fellow','founder','who','team','staff','people','consultant'],
@@ -234,7 +239,7 @@
   function greet() {
     setTimeout(function () {
       addMessage("Hi! I'm <strong>Aria</strong>, the virtual receptionist for Expansion Healthcare Partners. How can I help you today?", 'bot');
-      setQR(['What services do you offer?', 'Run ads for my practice', 'Who is Mark Rowlands?', 'How do I contact you?']);
+      setQR(['What services do you offer?', 'Tell me about referral growth', 'Who is Mark Rowlands?', 'How do I contact you?']);
     }, 300);
   }
 

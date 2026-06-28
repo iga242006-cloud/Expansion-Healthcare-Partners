@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 360" fill="none">
+  <rect width="480" height="360" fill="#FEF0F4"/>
+  <circle cx="420" cy="80" r="100" fill="#D6215E" fill-opacity=".07"/>
+  <circle cx="80" cy="320" r="70" fill="#2B7BB9" fill-opacity=".06"/>
+
+  <!-- Network / connection map -->
+  <!-- Central doctor -->
+  <circle cx="240" cy="180" r="38" fill="#D6215E" fill-opacity=".15" stroke="#D6215E" stroke-width="2.5"/>
+  <circle cx="240" cy="168" r="15" fill="#D6215E"/>
+  <path d="M214 208 Q240 194 266 208" stroke="#D6215E" stroke-width="3" stroke-linecap="round" fill="none"/>
+  <!-- NEW badge -->
+  <rect x="256" y="140" width="36" height="18" rx="9" fill="#D6215E"/>
+  <text x="274" y="153" font-family="Arial, sans-serif" font-size="9" fill="white" font-weight="bold" text-anchor="middle">NEW</text>
+
+  <!-- Surrounding referral doctors -->
+  <!-- Top -->
+  <circle cx="240" cy="80" r="24" fill="#2B7BB9" fill-opacity=".12" stroke="#2B7BB9" stroke-width="2"/>
+  <circle cx="240" cy="73" r="9" fill="#2B7BB9"/>
+  <path d="M226 94 Q240 86 254 94" stroke="#2B7BB9" stroke-width="2" stroke-linecap="round" fill="none"/>
+  <line x1="240" y1="104" x2="240" y2="142" stroke="#2B7BB9" stroke-width="1.5" stroke-dasharray="4 3"/>
+
+  <!-- Top-right -->
+  <circle cx="340" cy="110" r="24" fill="#2B7BB9" fill-opacity=".12" stroke="#2B7BB9" stroke-width="2"/>
+  <circle cx="340" cy="103" r="9" fill="#2B7BB9"/>
+  <path d="M326 124 Q340 116 354 124" stroke="#2B7BB9" stroke-width="2" stroke-linecap="round" fill="none"/>
+  <line x1="318" y1="122" x2="273" y2="155" stroke="#2B7BB9" stroke-width="1.5" stroke-dasharray="4 3"/>
+
+  <!-- Right -->
+  <circle cx="360" cy="200" r="24" fill="#2B7BB9" fill-opacity=".12" stroke="#2B7BB9" stroke-width="2"/>
+  <circle cx="360" cy="193" r="9" fill="#2B7BB9"/>
+  <path d="M346 214 Q360 206 374 214" stroke="#2B7BB9" stroke-width="2" stroke-linecap="round" fill="none"/>
+  <line x1="336" y1="200" x2="278" y2="192" stroke="#2B7BB9" stroke-width="1.5" stroke-dasharray="4 3"/>
+
+  <!-- Bottom-right -->
+  <circle cx="330" cy="278" r="24" fill="#2B7BB9" fill-opacity=".12" stroke="#2B7BB9" stroke-width="2"/>
+  <circle cx="330" cy="271" r="9" fill="#2B7BB9"/>
+  <path d="M316 292 Q330 284 344 292" stroke="#2B7BB9" stroke-width="2" stroke-linecap="round" fill="none"/>
+  <line x1="312" y1="262" x2="264" y2="218" stroke="#2B7BB9" stroke-width="1.5" stroke-dasharray="4 3"/>
+
+  <!-- Left -->
+  <circle cx="120" cy="200" r="24" fill="#2B7BB9" fill-opacity=".12" stroke="#2B7BB9" stroke-width="2"/>
+  <circle cx="120" cy="193" r="9" fill="#2B7BB9"/>
+  <path d="M106 214 Q120 206 134 214" stroke="#2B7BB9" stroke-width="2" stroke-linecap="round" fill="none"/>
+  <line x1="144" y1="200" x2="202" y2="190" stroke="#2B7BB9" stroke-width="1.5" stroke-dasharray="4 3"/>
+
+  <!-- Top-left -->
+  <circle cx="150" cy="110" r="24" fill="#2B7BB9" fill-opacity=".12" stroke="#2B7BB9" stroke-width="2"/>
+  <circle cx="150" cy="103" r="9" fill="#2B7BB9"/>
+  <path d="M136 124 Q150 116 164 124" stroke="#2B7BB9" stroke-width="2" stroke-linecap="round" fill="none"/>
+  <line x1="168" y1="124" x2="213" y2="156" stroke="#2B7BB9" stroke-width="1.5" stroke-dasharray="4 3"/>
+
+  <!-- Label -->
+  <rect x="48" y="16" width="200" height="36" rx="8" fill="#1A1A2E" fill-opacity=".85"/>
+  <text x="68" y="39" font-family="Georgia, serif" font-size="14" fill="white" font-weight="bold">Physician Onboarding</text>
+</svg>

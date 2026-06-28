@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 360" fill="none">
+  <rect width="480" height="360" fill="#F0F6FC"/>
+  <!-- Background shapes -->
+  <circle cx="400" cy="60" r="120" fill="#2B7BB9" fill-opacity=".07"/>
+  <circle cx="60" cy="300" r="80" fill="#D6215E" fill-opacity=".06"/>
+
+  <!-- Chart / growth line -->
+  <rect x="48" y="200" width="36" height="80" rx="6" fill="#2B7BB9" fill-opacity=".18"/>
+  <rect x="102" y="170" width="36" height="110" rx="6" fill="#2B7BB9" fill-opacity=".28"/>
+  <rect x="156" y="138" width="36" height="142" rx="6" fill="#2B7BB9" fill-opacity=".38"/>
+  <rect x="210" y="108" width="36" height="172" rx="6" fill="#2B7BB9" fill-opacity=".55"/>
+  <rect x="264" y="76" width="36" height="204" rx="6" fill="#2B7BB9" fill-opacity=".72"/>
+  <rect x="318" y="48" width="36" height="232" rx="6" fill="#2B7BB9"/>
+
+  <!-- Trend arrow -->
+  <polyline points="66,272 120,242 174,210 228,178 282,144 336,112" stroke="#D6215E" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="336" cy="112" r="7" fill="#D6215E"/>
+  <path d="M330 100 L336 112 L348 106" stroke="#D6215E" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Two person icons (doctors shaking hands) -->
+  <circle cx="390" cy="170" r="22" fill="#2B7BB9" fill-opacity=".15" stroke="#2B7BB9" stroke-width="2"/>
+  <circle cx="390" cy="163" r="9" fill="#2B7BB9"/>
+  <path d="M372 200 Q390 188 408 200" stroke="#2B7BB9" stroke-width="2.5" stroke-linecap="round" fill="none"/>
+
+  <circle cx="440" cy="200" r="18" fill="#D6215E" fill-opacity=".12" stroke="#D6215E" stroke-width="2"/>
+  <circle cx="440" cy="194" r="7.5" fill="#D6215E"/>
+  <path d="M426 222 Q440 212 454 222" stroke="#D6215E" stroke-width="2" stroke-linecap="round" fill="none"/>
+
+  <!-- Handshake line -->
+  <path d="M408 200 L426 210" stroke="#1A1A2E" stroke-width="2" stroke-linecap="round" stroke-dasharray="3 3"/>
+
+  <!-- Label -->
+  <rect x="48" y="16" width="220" height="36" rx="8" fill="#1A1A2E" fill-opacity=".85"/>
+  <text x="68" y="39" font-family="Georgia, serif" font-size="14" fill="white" font-weight="bold">Practice Business Development</text>
+
+  <!-- Axis lines -->
+  <line x1="40" y1="290" x2="370" y2="290" stroke="#1A1A2E" stroke-opacity=".15" stroke-width="1.5"/>
+  <line x1="40" y1="290" x2="40" y2="48" stroke="#1A1A2E" stroke-opacity=".15" stroke-width="1.5"/>
+</svg>

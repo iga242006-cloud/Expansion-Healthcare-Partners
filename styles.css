@@ -718,6 +718,9 @@ a:hover { text-decoration: underline; }
   line-height: 1.75;
 }
 
+/* Approach two-column layout */
+.approach-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 72px; align-items: center; }
+
 /* Values / Feature List */
 .values-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 24px; margin-top: 40px; }
 .value-item {
@@ -964,6 +967,7 @@ a:hover { text-decoration: underline; }
   .cards-2 { grid-template-columns: 1fr; }
   .testimonial-grid { grid-template-columns: 1fr; }
   .testimonial-grid-3 { grid-template-columns: 1fr; }
+  .approach-grid { grid-template-columns: 1fr; gap: 40px; }
   .values-grid { grid-template-columns: 1fr; }
 
   .footer-grid { grid-template-columns: 1fr; gap: 36px; }
